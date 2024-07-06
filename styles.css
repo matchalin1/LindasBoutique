@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.font-cursive {
+  font-family: 'Dancing Script', cursive;
+  size: 200px;
+}
+
+/* .text-center{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+} */
+
+/* min-h-screen bg-white dark:bg-zinc-900 text-zinc-900 dark:text-white 
+bg-beige-100 dark:bg-beige-800 py-4
+flex justify-center space-x-6 text-lg font-semibold
+flex justify-center py-4 : search container
+border rounded-full px-4 py-2 text-center - search input
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6 - product grid
+text-align center product
+w-full h-auto mb-2 product image
+text-zinc-500 product name
+w-full h-auto mb-2 product image
+background-color: #a39480;
+
+
+*/
+
+
+
+.site-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+/* NAVIGATION BAR */
+
+
+.navigation {
+  background-color: #F6EAD5;
+  background-size: 5rem;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 1rem;
+  position: relative; /* Needed for absolute positioning of home-link */
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem; /* Space between links */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex: 1; /* Take up the remaining space */
+    justify-content: center; /* Center the links within the available space */
+    font-size: 2rem;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-link-home {
+    position: absolute;
+    left: 2rem;
+}
+
+.nav-link-cart {
+    position: absolute;
+    right: 13rem;
+}
+
+.nav-link-wishlist {
+    position: absolute;
+    right: 10rem;
+}
+
+.nav-link-account {
+    position: absolute;
+    right: 2rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+  }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.search-input {
+    border: 1px solid #a39480;
+    border-radius: 9999px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.product-name {
+    color: #6b7280;
+}
+
+
+

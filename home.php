@@ -1,78 +1,82 @@
-<!-- <div class="min-h-screen bg-white dark:bg-zinc-900 text-zinc-900 dark:text-white">
-  <header class="text-center py-6">
-    <h1 class="text-4xl font-cursive">linda's boutique</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <title>Linda's Boutique</title>
+</head>
+<body>
+
+<div class="container">
+  <header class="header">
+    <h1 class="site-title">linda's boutique</h1>
   </header>
-  <nav class="bg-beige-100 dark:bg-beige-800 py-4">
-    <ul class="flex justify-center space-x-6 text-lg font-semibold">
-      <li><a href="#" class="hover:underline">home</a></li>
-      <li><a href="#" class="hover:underline">new</a></li>
-      <li><a href="#" class="hover:underline">women</a></li>
-      <li><a href="#" class="hover:underline">men</a></li>
-      <li><a href="#" class="hover:underline">category</a></li>
+
+  <nav class="navigation">
+    <ul class="nav-list">
+      <li><a href="#" class="nav-link-home">home</a></li>
+      <li><a href="#" class="nav-link">new</a></li>
+      <li><a href="#" class="nav-link">women</a></li>
+      <li><a href="#" class="nav-link">men</a></li>
+      <li><a href="#" class="nav-link">category</a></li>
       <li>
-        <a href="#" class="hover:underline"
+        <a href="#" class="nav-link-cart"
           ><img src="https://placehold.co/20x20" alt="cart" class="inline-block"
         /></a>
       </li>
       <li>
-        <a href="#" class="hover:underline"
+        <a href="#" class="nav-link-wishlist"
           ><img src="https://placehold.co/20x20" alt="wishlist" class="inline-block"
         /></a>
       </li>
-      <li><a href="#" class="hover:underline">account</a></li>
+      <li><a href="#" class="nav-link-account">account</a></li>
     </ul>
   </nav>
-  <div class="flex justify-center py-4">
-    <input type="text" placeholder="search" class="border rounded-full px-4 py-2 text-center" />
+
+  <div class="search-container">
+    <input type="text" placeholder="search" class="search-input" />
   </div>
-  <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
-    <div class="text-center">
+
+  <main class="product-grid">
+    <div class="product">
       <img
-        src="https://placehold.co/300x400"
+        src="images/strawberrysocks.png"
         alt="cute strawberry pair of socks"
-        class="w-full h-auto mb-2"
+        class="product-image"
       />
-      <p>cute strawberry pair of socks</p>
-      <p class="text-zinc-500">$5.00</p>
+      <p class="product-name">cute strawberry pair of socks</p>
+      <p class="product-price">$5.00</p>
     </div>
-    <div class="text-center">
+    <div class="product">
       <img
-        src="https://placehold.co/300x400"
+        src="images/baggyjeans.png"
         alt="high waisted baggy jeans"
-        class="w-full h-auto mb-2"
+        class="product-image"
       />
-      <p>high waisted baggy jeans</p>
-      <p class="text-zinc-500">$25.00</p>
+      <p class="product-name">high waisted baggy jeans</p>
+      <p class="product-price">$25.00</p>
     </div>
-    <div class="text-center">
+    <div class="product">
       <img
-        src="https://placehold.co/300x400"
+        src="images/dropshouldercardigan.png"
         alt="drop shoulder cardigan"
-        class="w-full h-auto mb-2"
+        class="product-image"
       />
-      <p>drop shoulder cardigan</p>
-      <p class="text-zinc-500">$20.00</p>
+      <p class="product-name">drop shoulder cardigan</p>
+      <p class="product-price">$20.00</p>
     </div>
-    <div class="text-center">
+    <div class="product">
       <img
-        src="https://placehold.co/300x400"
+        src="images/mushroomsweater.png"
         alt="hooded sweatshirt with mushroom design"
-        class="w-full h-auto mb-2"
+        class="product-image"
       />
-      <p>hooded sweatshirt with mushroom design</p>
-      <p class="text-zinc-500">$15.00</p>
+      <p class="product-name">hooded sweatshirt with mushroom design</p>
+      <p class="product-price">$15.00</p>
+
     </div>
   </main>
 </div>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-  .font-cursive {
-    font-family: 'Dancing Script', cursive;
-  }
-  .bg-beige-100 {
-    background-color: #f5f5dc;
-  }
-  .dark .bg-beige-800 {
-    background-color: #a39480;
-  }
-</style> -->
+</body>
+</html>
